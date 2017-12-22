@@ -2,7 +2,7 @@ before_install:
 - sudo apt-get update && sudo apt-get install --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng texlive-lang-french latexmk latex-beamer
 script:
 - mkdir _build
-- latexmk -pdf -output-directory=_build -jobname=Charte_EN Charte_EN.tex
+- latexmk -pdf -output-directory=_build -jobname=Charte_FR Charte_FR.tex
 deploy:
   provider: releases
   api_key:
