@@ -10,5 +10,4 @@ deploy:
   file: _build/CharteFR.pdf
   skip_cleanup: true
   on:
-    repo: rezoleo/CharteFR
-tags: true
+    tags: true
